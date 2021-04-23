@@ -1,7 +1,7 @@
 name: learn-github-actions
 on: [push]
 env:
-  TEST_SECRET: ${{ secrets.MY_TEST_SECRET }}
+  TEST_SECRET: ${{ secrets.MY_TEST_SECRET1 }}
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
